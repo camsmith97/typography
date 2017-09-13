@@ -1,0 +1,84 @@
+/* Embedded Fonts */
+
+@font-face {
+	font-family: blah;
+	src:url(../fonts/wask.otf);
+	}
+
+
+/* Container Items */
+
+html,body {
+	height: 100%;
+	width: 100%;
+	
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url("../images/cover.jpg") no-repeat center fixed;
+	-webkit-background-size: cover;
+
+}
+
+#container {
+
+}
+
+
+
+/* Paragraph Styles */
+
+.title {
+		font-family: blah;
+		font-size: 50pt;
+		position: absolute;
+		top: 10%;
+		left: 60%;
+		margin-right: 50px;
+		text-align: right;
+}	
+
+.author {
+
+}
+
+
+
+.text {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16pt;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 35px;
+	float:left;
+	line-height: 30px;
+
+ }
+
+.italic {
+	font-style: italic;
+}
+#edmund {
+	height: 450px;
+	width: 450px;
+	background-image: url("../images/edmund.jpg");
+	margin-top: 100px;
+	margin-left: 100px;
+	float:left;
+	margin-bottom: 100px;
+}
+#caption {
+	font-family:  'Josefin Sans', sans-serif;
+	font-size: 12px;
+	background-color: #dbdbdb;
+	float:left;
+	width: 100px;
+	padding: 7px 7px 7px 7px;
+	margin-top: 130px;
+
+}
+#captions {
+	margin-left: 5px;
+}
